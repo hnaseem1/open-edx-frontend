@@ -1,0 +1,18 @@
+<%page expression_filter="h"/>
+<%! from django.utils.translation import ugettext as _ %>
+<%inherit file="../main.html" />
+
+<%block name="pagetitle">${_("About")}</%block>
+
+<main id="main" aria-label="Content" tabindex="-1">
+    <section class="container about">
+        <h1>${_("Our Story")}</h1>
+        <p>${_("The Open Democracy Project is a not-for-profit startup working to open the democratic process by publishing a shared campaign resource package for councillor and trustee races. DemocracyKit is being built by local campaigners, for local campaigners.")}</p>
+        <p>
+	         <br>
+        </p>
+        <h3>{_(The Challenge)}</h3>
+        <p>{_(It’s time for a change in municipal politics. When councils across Canada don’t reflect the demographics of their cities, and incumbents have a nearly insurmountable advantage over challengers, something must be done to open access to the political system.)}</p>
+        <p>&nbsp;<img src="https://d3n8a8pro7vhmx.cloudfront.net/groundforce/pages/1933/attachments/original/1482044376/fargy4hgo7is8bv7auqo.jpg" alt="Incumbency Advantage" data-mce-src="fargy4hgo7is8bv7auqo.jpg" data-mce-style="margin-left: 5px; margin-right: 5px;" class="fr-dii fr-draggable"><img src="https://d3n8a8pro7vhmx.cloudfront.net/groundforce/pages/1933/attachments/original/1482044378/scckypyaib2z5v5agqb2.jpg" alt="Gender Gap" data-mce-src="scckypyaib2z5v5agqb2.jpg" data-mce-style="margin-left: 5px; margin-right: 5px;" class="fr-dii fr-draggable"></p>
+    </section>
+</main>
