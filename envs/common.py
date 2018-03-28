@@ -970,7 +970,7 @@ STATICFILES_DIRS = [
     NODE_MODULES_ROOT / "@edx",
 ]
 
-FAVICON_PATH = 'images/favicon.ico'
+FAVICON_PATH = 'images/dk_logo.png'
 DEFAULT_COURSE_ABOUT_IMAGE_URL = 'images/pencils.jpg'
 
 # User-uploaded content
