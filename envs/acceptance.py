@@ -118,8 +118,8 @@ FEATURES['AUTOMATIC_AUTH_FOR_TESTING'] = True
 FEATURES['ENABLE_THIRD_PARTY_AUTH'] = True
 THIRD_PARTY_AUTH = {
     "Google": {
-        "SOCIAL_AUTH_GOOGLE_OAUTH2_KEY": "test",
-        "SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET": "test"
+        "SOCIAL_AUTH_GOOGLE_OAUTH2_KEY": "174145141252-33h0tuemet9gooppf05repnon69toham.apps.googleusercontent.com",
+        "SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET": "F_HxYvTkP-mCXUElvUsyzvPm"
     },
     "Facebook": {
         "SOCIAL_AUTH_FACEBOOK_KEY": "test",
