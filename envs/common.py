@@ -50,12 +50,12 @@ from lms.djangoapps.lms_xblock.mixin import LmsBlockMixin
 
 ################################### FEATURES ###################################
 # The display name of the platform to be used in templates/emails/etc.
-PLATFORM_NAME = _('Your Platform Name Here')
-PLATFORM_DESCRIPTION = _('Your Platform Description Here')
+PLATFORM_NAME = _('Democracy Kit')
+PLATFORM_DESCRIPTION = _('An open course platform for municipal campaigns and candidates.')
 CC_MERCHANT_NAME = PLATFORM_NAME
 
 PLATFORM_FACEBOOK_ACCOUNT = "http://www.facebook.com/YourPlatformFacebookAccount"
-PLATFORM_TWITTER_ACCOUNT = "@YourPlatformTwitterAccount"
+PLATFORM_TWITTER_ACCOUNT = "@DemocractKit"
 
 ENABLE_JASMINE = False
 
